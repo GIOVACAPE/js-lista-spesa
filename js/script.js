@@ -17,18 +17,19 @@ const listaSpesa = [
 const listaWrapper = document.querySelector('.list-wrapper')
 listaWrapper.innerHTML = ''
 
-// CON IL CICLO FOR
 
-for (let i = 0; i < listaSpesa.length; i++) {
+// CICLO WHILE
+
+let i = 0
+
+while (i < listaSpesa.length) {
     const item = listaSpesa[i]
-    // creiamo LI come stringhe
     const li = `
     <li class="list-item"> 
         ${item}
     </li>`
-
-    // inseriamo li nel wrapper
     listaWrapper.innerHTML += li
+    i++
+
     console.log(listaWrapper)
 }
-// ----------------
