@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ol,ul,menu{
+    list-style: none;
+}
+
+/* CONTAINER */
+.container{
+    max-width: 900px;
+    margin: 100px auto;
+    border: 3px solid rgb(255, 25, 0);
+    padding: 20px;
+}
+
+/* list item */
+.list-item{
+    font-size: 30px;
+}
